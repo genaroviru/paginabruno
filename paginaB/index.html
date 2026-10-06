@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título de la pestaña que se muestra en el navegador -->
+    <title>West & Co.</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<!-- <body>  Agrupa todo el contenido visible de la página web (texto, imágenes, enlaces, etc.) -->
+<body>
+
+    <!-- Cabecera principal del sitio web que tiene la identidad visual y el menú de navegación -->
+    <header>
+        <!-- div funciona como un bloque que agrupa varios elementos y ayuda a estructurar el diseño de la pagina 
+         y el div class nos ayuda a daarle laa misma clase a varios elementos para que todos tengan la misma apaariencia sin repetir codigo -->
+        <div class="logo">West & Co.</div>
+
+        <!-- nav es un elemento que contiene la navegacion principal, como el menu o los enlaces -->
+        <nav>
+            <!-- a href son los hipervinculos que permiten que el ususario de clic para ir a ptra pagina como inicio de sesion, contacto, etc -->
+            <a href="index.html">Inicio</a>
+            <a href="pages/nosotros.html">Mi trabajo</a>
+            <a href="pages/sobremi.html">Sobre mí</a>
+            <a href="pages/contacto.html" class="btn-contacto">Contacto</a>
+        </nav>
+    </header>
+
+
+    <!-- section funciona para agrupar un contenido cuales comparten el mismo contenido o tema -->
+    <section class="principal">
+        <div class="principal-texto">
+            <!-- hi representa el titulo principal de la pagina -->
+            <h1>The Western & Co.</h1>
+            <!-- p son los paarrafos que se encuentran en la seccion principal -->
+            <p>Descubre nuestra colección de botas, sombreros y prendas inspiradas en el auténtico estilo western.</p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="#c4bc00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-map-pin"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" /><path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0" /></svg>
+            <p class="ubicacion"> Aguascalientes, Ags.</p>
+            <a href="#contacto" class="boton">Contáctanos</a>
+        </div>
+        <div class="principal-imagen">
+            <!-- <img> Muestra una imagen en la página; 'src' indica la ruta del archivo y 'alt' la descripción -->
+            <img src="img/ bbzm.jpg" alt="Estilo Western">
+        </div>
+    </section>
+
+
+    <!-- Sección de Gestión y Productos para presentar las tarjetas de administración del negocio -->
+    <section class="seccion">
+        <!-- <h2>  Título secundario para nombrar el inicio de una sección -->
+        <h2>Gestión & Productos</h2>
+        <div class="tarjetas">
+            <div class="tarjeta">
+                <!-- Tarjeta individual con iconos, emojis, título y texto descriptivo -->
+                 <div class="icono"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="#c4bc00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-file-orientation"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M14 3v4a1 1 0 0 0 1 1h4" /><path d="M10 21h-3a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v2" /><path d="M13 20h5a2 2 0 0 0 2 -2v-5" /><path d="M15 22l-2 -2l2 -2" /><path d="M18 15l2 -2l2 2" /></svg></div>
+                 <!-- <h3>  Subtítulo de tercer nivel, ideal para nombrar tarjetas o bloques de contenido -->
+                <h3>Gestión de Inventario</h3>
+                <p>Control en tiempo real de existencias de sombreros, botas y prendas para optimizar el stock y evitar faltantes.
+                    Registro detallado de productos por talla, material, color y proveedor para una organización eficiente.</p>
+            </div>
+            <div class="tarjeta">
+                
+                 <div class="icono"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="#c4bc00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-user-dollar"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0" /><path d="M6 21v-2a4 4 0 0 1 4 -4h3" /><path d="M21 15h-2.5a1.5 1.5 0 0 0 0 3h1a1.5 1.5 0 0 1 0 3h-2.5" /><path d="M19 21v1m0 -8v1" /></svg></div>
+                <h3>Gestión de Clientes</h3>
+                <p>Control de horarios, asignación de citas y tareas de taller para optimizar la productividad del equipo.
+                Seguimiento del desempeño en servicios de personalización, mantenimiento y confección.</p>
+
+                
+            </div>
+            <div class="tarjeta">
+               
+                 <div class="icono"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="#c4bc00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-man"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M10 16v5" /><path d="M14 16v5" /><path d="M9 9h6l-1 7h-4l-1 -7" /><path d="M5 11c1.333 -1.333 2.667 -2 4 -2" /><path d="M19 11c-1.333 -1.333 -2.667 -2 -4 -2" /><path d="M10 4a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /></svg></div>
+                <h3>Gestión de Empleados</h3>
+                <p>Registro de preferencias, medidas exactas y tallas personalizadas para ofrecer un trato único.
+                    Historial de compras y servicios anteriores (hormado, restauración) para dar un seguimiento impecable.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Sección de Servicios con clase condicional para aplicar un fondo de color gris en CSS -->
+    <section class="seccion fondo-gris">
+        <h2>Mis Servicios</h2>
+        <div class="servicios">
+            <!-- Módulo de servicio individual que utiliza una imagen PNG como icono identificador -->
+            <div class="servicio">
+                <div class="icono">
+                    <img src="img/sombrero.png" alt="Sombreros">
+                </div>
+                <h3>Personalización de Sombreros</h3>
+                <p>Hormado, limpieza y personalización a la medida de tu sombrero de lana, pelo de castor o palma.</p>
+            </div>
+
+            <div class="servicio">
+                <div class="icono">
+                     <img src="img/botas.png" alt="Botas">
+                </div>
+                <h3>Mantenimiento y Cuidado de Botas</h3>
+                <p>Nutricion de pieles finas, lustrado profesional y restauracion para que tus botas siempre luzcan como nuevas.</p>
+            </div>
+
+            <div class="servicio">
+                <div class="icono">
+                     <img src="img/chaleco.png" alt="Chaleco">
+                </div>
+                <h3>Ajuste y Confección Western</h3>
+                <p>Ajuste de sastreria en camisas vaqueras, pantalones, chalecos de piel a tu medida exacta.</p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Sección de contacto con identificador 'contacto' para vincular con el menú de navegación -->
+    <section id="contacto" class="seccion">
+        <h2>Contacto</h2>
+
+        <!-- <form> Contenedor que agrupa los campos para capturar información enviada por el usuario -->
+        <form class="formulario">
+            <!-- <legend>  Título o descripción del conjunto de campos de un formulario -->
+            <legend>Envía un mensaje para programar una cita</legend>
+
+            <div class="campo">
+                <!-- <label> sirve para nombrar un campo de texto -->
+                <label>Nombre:</label>
+                <!-- <input> genera una caja para escribir información breve -->
+                <input type="text" placeholder="Tu nombre">
+            </div>
+
+            <div class="campo">
+                <label>Teléfono:</label>
+                <input type="tel" placeholder="Tu teléfono">
+            </div>
+
+            <div class="campo">
+                <label>Correo electrónico:</label>
+                <input type="email" placeholder="Tu correo">
+            </div>
+
+            <div class="campo">
+                <label>Mensaje:</label>
+                <!-- <textarea> crea un área para escribir textos largos de múltiples líneas -->
+                <textarea placeholder="Escribe tu mensaje aquí..."></textarea>
+            </div>
+
+            <!-- <button>  Botón interactivo dentro o fuera de un formulario -->
+            <button type="submit" class="boton btn-enviar">Enviar</button>
+        </form>
+    </section>
+
+
+    <!-- Pie de página con derechos de autor y enlaces directos a redes sociales -->
+    <footer>
+        <p>&copy; Todos los derechos reservados. Bruno Zamora Muñoz</p>
+        <div class="redes">
+            <a href="https://www.instagram.com/bruno_munozzzz" target="_blank">Instagram</a>
+            <a href="https://www.tiktok.com/@bruno.muoz55" target="_blank">TikTok</a>
+        </div>
+    </footer>
+
+</body>
+</html>

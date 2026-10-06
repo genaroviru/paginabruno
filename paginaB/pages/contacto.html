@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - West & Co.</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+
+    <!-- Cabecera con navegación -->
+    <header>
+        <div class="logo">West & Co.</div>
+        <nav>
+            <a href="../index.html">Inicio</a>
+            <a href="nosotros.html">Mi trabajo</a>
+            <a href="sobremi.html">Sobre mí</a>
+            <a href="contacto.html" class="btn-contacto">Contacto</a>
+        </nav>
+    </header>
+
+
+    <!-- Sección Hero de Contacto -->
+    <section class="principal">
+        <div class="principal-texto">
+            <h1>Contacto</h1>
+            <p>¿Tienes una idea, un proyecto o simplemente quieres saludar? Estamos aquí para ayudarte. Escríbenos y te respondemos lo antes posible.</p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="#c4bc00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0"/><path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0"/></svg>
+            <p class="ubicacion">Aguascalientes, Ags.</p>
+        </div>
+    </section>
+
+
+    <!-- Sección de Información de Contacto -->
+    <section class="seccion">
+        <h2>Información de Contacto</h2>
+        <div class="tarjetas">
+            <div class="tarjeta">
+                <div class="icono">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="#c4bc00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0"/><path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0"/></svg>
+                </div>
+                <h3>Ubicación</h3>
+                <p>Aguascalientes, Ags., México</p>
+                <p style="font-size: 13px; color: #888; margin-top: 5px;">Atención con cita previa</p>
+            </div>
+
+            <div class="tarjeta">
+                <div class="icono">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="#c4bc00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2"/></svg>
+                </div>
+                <h3>Teléfono</h3>
+                <p>Llámanos o envía un WhatsApp para agendar tu cita.</p>
+                <p style="font-size: 13px; color: #888; margin-top: 5px;">Lunes a Sábado, 9:00 - 18:00</p>
+            </div>
+
+            <div class="tarjeta">
+                <div class="icono">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="#c4bc00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z"/><path d="M3 7l9 6l9 -6"/></svg>
+                </div>
+                <h3>Redes Sociales</h3>
+                <p>Síguenos para ver nuestros trabajos más recientes y novedades.</p>
+                <div style="margin-top: 10px;">
+                    <a href="https://www.instagram.com/bruno_munozzzz" target="_blank" class="boton" style="font-size: 13px; padding: 6px 12px; margin-right: 5px;">Instagram</a>
+                    <a href="https://www.tiktok.com/@bruno.muoz55" target="_blank" class="boton" style="font-size: 13px; padding: 6px 12px;">TikTok</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Sección del Formulario de Contacto -->
+    <section id="contacto" class="seccion fondo-gris">
+        <h2>Envíanos un Mensaje</h2>
+
+        <form class="formulario">
+            <legend>Cuéntanos sobre tu proyecto o solicita una cita</legend>
+
+            <div class="campo">
+                <label>Nombre completo:</label>
+                <input type="text" placeholder="Tu nombre completo">
+            </div>
+
+            <div class="campo">
+                <label>Teléfono:</label>
+                <input type="tel" placeholder="Tu número de teléfono">
+            </div>
+
+            <div class="campo">
+                <label>Correo electrónico:</label>
+                <input type="email" placeholder="Tu correo electrónico">
+            </div>
+
+            <div class="campo">
+                <label>Servicio de interés:</label>
+                <!-- <select> crea un menú desplegable con opciones predefinidas para que el usuario seleccione una -->
+                <select style="width: 100%; padding: 10px; border: 1px solid #CCCCCC; border-radius: 4px; font-family: inherit; background-color: #FFFFFF;">
+                    <option value="">Selecciona un servicio</option>
+                    <option value="hormado">Hormado de Sombreros</option>
+                    <option value="botas">Mantenimiento de Botas</option>
+                    <option value="confeccion">Confección a Medida</option>
+                    <option value="restauracion">Restauración</option>
+                    <option value="otro">Otro</option>
+                </select>
+            </div>
+
+            <div class="campo">
+                <label>Mensaje:</label>
+                <textarea placeholder="Describe tu proyecto, la pieza que necesitas o cualquier duda que tengas..."></textarea>
+            </div>
+
+            <button type="submit" class="boton btn-enviar">Enviar Mensaje</button>
+        </form>
+    </section>
+
+
+    <!-- Sección de Horarios -->
+    <section class="seccion">
+        <h2>Horario de Atención</h2>
+        <div class="tarjetas" style="justify-content: center;">
+            <div class="tarjeta" style="max-width: 450px; text-align: left;">
+                <div class="icono" style="text-align: center;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="#c4bc00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"/><path d="M12 12h3.5"/><path d="M12 7v5"/></svg>
+                </div>
+                <h3 style="text-align: center;">Nuestros Horarios</h3>
+                <p style="display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid #eee;"><strong>Lunes - Viernes</strong> <span>9:00 AM - 6:00 PM</span></p>
+                <p style="display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid #eee;"><strong>Sábado</strong> <span>10:00 AM - 3:00 PM</span></p>
+                <p style="display: flex; justify-content: space-between; padding: 8px 0;"><strong>Domingo</strong> <span style="color: #c44;">Cerrado</span></p>
+                <p style="text-align: center; margin-top: 15px; font-size: 13px; color: #888;">* Se recomienda agendar cita previa para atención personalizada</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; Todos los derechos reservados. Bruno Zamora Muñoz</p>
+        <div class="redes">
+            <a href="https://www.instagram.com/bruno_munozzzz" target="_blank">Instagram</a>
+            <a href="https://www.tiktok.com/@bruno.muoz55" target="_blank">TikTok</a>
+        </div>
+    </footer>
+
+</body>
+</html>
